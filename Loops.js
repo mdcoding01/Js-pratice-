@@ -30,3 +30,4 @@ const PrinT= (item,index,art) => {
     console.log(`The value is ${item} the index is ${index} The array is ${art}`)
 }
 art.forEach(PrinT)
+
