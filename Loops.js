@@ -26,8 +26,30 @@ arrays.forEach(element => {
 
 let art = [1, 2, 3, 4, 5]
 
-const PrinT= (item,index,art) => {
+const PrinT = (item, index, art) => {
     console.log(`The value is ${item} the index is ${index} The array is ${art}`)
 }
 art.forEach(PrinT)
 
+let arObj = [
+    {
+        Language_Extension: "Js",
+        Language_Name: "JavaScript"
+    },
+    {
+        Language_Extension: "Py",
+        Language_Name: "Python"
+    },
+    {
+        Language_Extension: "Jv",
+        Language_Name: "Java"
+    },
+    {
+        Language_Extension: "c",
+        Language_Name: "C++"
+    }
+]
+
+arObj.forEach((value)=>{
+    console.log(value.Language_Extension, value.Language_Name)
+})
